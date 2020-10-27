@@ -2,7 +2,7 @@
   "name": "my-pipeline",
   "version": "0.1.0",
   "bin": {
-    "my-pipeline": "bin/my-pipeline.js"
+    "my-pipeline": "bin/my-pipeline.ts"
   },
   "scripts": {
     "build": "tsc",
