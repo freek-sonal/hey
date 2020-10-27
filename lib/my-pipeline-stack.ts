@@ -18,7 +18,7 @@ export class MyPipelineStack extends Stack {
       sourceAction: new codepipeline_actions.GitHubSourceAction({
         actionName: 'GitHub',
         output: sourceArtifact,
-        oauthToken: SecretValue.secretsManager(' d5b3d8d183497ee466582326f4567bea2a427ef3'),
+        oauthToken: SecretValue.secretsManager('d5b3d8d183497ee466582326f4567bea2a427ef3'),
         trigger: codepipeline_actions.GitHubTrigger.POLL,
         // Replace these with your actual GitHub project info
         owner: 'freek-sonal',
